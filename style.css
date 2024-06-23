@@ -1,0 +1,743 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+/* navigation bar*/
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    height: 622.79px;
+    width: 1536px;
+    background-image: url("image/frontpagebackgroundimage.jpg");
+    display: flex;
+    background-repeat: no-repeat;
+    filter: brightness(100%);
+    justify-content: center;
+}
+
+.item {
+    position: relative;
+    margin: 2px;
+    top: 24px;
+    height: 20px;
+    background: transparent;
+}
+
+.item1 {
+    left: -12vw;
+    background: transparent;
+}
+
+.item2 {
+    left: 13vw;
+    background: transparent;
+}
+
+.item3 {
+    left: 14vw;
+    font-size: larger;
+    background: transparent;
+}
+
+.item3 button {
+    padding: 7px;
+    border-radius: 5px;
+    border: transparent;
+    color: white;
+    font-weight: bolder;
+    filter: brightness(172%);
+    font-size: medium;
+    background-color: red;
+    cursor: pointer;
+}
+
+.item2 button {
+    width: 90px;
+    padding: 4px;
+    background-color: rgb(211, 206, 206);
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    border: 2px solid;
+    border: 1px solid;
+}
+
+.item2 img {
+    position: relative;
+    top: 2px;
+    background: transparent;
+}
+
+.item5 span {
+    background: transparent;
+}
+
+
+/* front page content*/
+.container1 {
+    height: 295.6px;
+    width: 1170px;
+    position: absolute;
+    top: 193px;
+    left: 189px;
+    background: transparent;
+}
+
+.container1 .item {
+    background: transparent;
+    text-align: center;
+    color: white;
+}
+
+.container1 h1 {
+    background: transparent;
+    text-align: center;
+    font-size: 53px;
+    color: white;
+    font-weight: bolder;
+}
+
+.container1 p {
+    background: transparent;
+    text-align: center;
+    color: white;
+}
+
+.container1 span {
+    background: transparent;
+    text-align: center;
+    color: white;
+}
+
+#first {
+    position: relative;
+    top: 114px;
+    font-size: 28px;
+}
+
+#second {
+    position: relative;
+    top: 132px;
+    height: 55px;
+    font-size: 23px;
+}
+
+.email {
+    position: relative;
+    height: 50px;
+    width: 29vw;
+    top: 182px;
+    right: 88px;
+    background-color: rgb(196, 191, 191);
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding-left: 6px;
+    opacity: 0.8;
+}
+
+.container1 span button {
+    position: relative;
+    height: 50px;
+    width: 11vw;
+    top: 180px;
+    right: 85px;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 21px;
+    color: white;
+    cursor: pointer;
+}
+
+/* front page end*/
+
+/*second page start*/
+
+main {
+    justify-content: center;
+}
+
+.box {
+    height: 32vw;
+    background-color: black;
+}
+
+#box0 {
+    position: relative;
+    top: 7px;
+    display: grid;
+    grid-template-rows: 491px;
+    grid-template-columns: 750px 750px;
+    background-color: black;
+    align-items: center;
+}
+
+#box1 {
+    position: relative;
+    top: 14px;
+    display: grid;
+    grid-template-rows: 491px;
+    grid-template-columns: 750px 750px;
+    background-color: black;
+    align-items: center;
+
+}
+
+
+#box2 {
+    position: relative;
+    top: 21px;
+    display: grid;
+    grid-template-rows: 491px;
+    grid-template-columns: 750px 750px;
+    background-color: black;
+    align-items: center;
+}
+
+#box3 {
+    position: relative;
+    top: 28px;
+    display: grid;
+    grid-template-rows: 491px;
+    grid-template-columns: 750px 750px;
+    background-color: black;
+    align-items: center;
+
+}
+
+#box4 {
+    height: 59vw;
+    position: relative;
+    top: 35px;
+}
+
+#box5 {
+    height: 31vw;
+    position: relative;
+    top: 42px;
+
+}
+
+#box0 .boxes {
+    position: relative;
+    height: 18vw;
+    width: 43vw;
+    left: 80px;
+    background-color: black;
+    grid-column: 1/2;
+}
+
+#box0 .boxes h1 {
+    position: absolute;
+    font-size: 44px;
+    color: white;
+    left: 146px;
+    top: 90px;
+    background-color: black;
+}
+
+#box0 .boxes h4 {
+    position: absolute;
+    font-size: 22px;
+    color: white;
+    left: 146px;
+    top: 156px;
+    font-weight: 400;
+    background-color: black;
+}
+
+#box0 .boxes1 {
+    grid-column: 2/3;
+    width: 51vw;
+    background: transparent;
+}
+
+#box0 .boxes1 video {
+    position: absolute;
+    top: 100px;
+    right: 226px;
+    overflow: hidden;
+}
+
+#box0 .boxes1 img {
+    position: relative;
+    background: transparent;
+    height: 481px;
+    z-index: 1;
+}
+
+/*third page start*/
+#box1 .boxes1 {
+    top: 19px;
+    position: relative;
+    height: 20vw;
+    width: 37vw;
+    left: 72px;
+    background-color: black;
+    grid-column: 1/2;
+}
+
+#box1 .boxes1 h1 {
+    position: absolute;
+    font-size: 55px;
+    color: white;
+    left: 45px;
+    top: 90px;
+    font-weight: bolder;
+    background-color: black;
+}
+
+#box1 .boxes1 h4 {
+    position: absolute;
+    font-size: 23px;
+    color: white;
+    left: 44px;
+    top: 221px;
+    font-weight: 400;
+    background-color: black;
+
+}
+
+#box1 .boxes1 {
+    grid-column: 2/3;
+
+}
+
+#box1 .boxes {
+    width: 51vw;
+    background: transparent;
+}
+
+#box1 .boxes video {
+    position: absolute;
+    top: 100px;
+    right: 226px;
+    overflow: hidden;
+}
+
+#box1 .boxes img {
+    position: relative;
+    background: transparent;
+    height: 481px;
+    z-index: 1;
+}
+
+/*fourth page start */
+#box2 .boxes {
+    position: relative;
+    height: 18vw;
+    width: 43vw;
+    left: 80px;
+    background-color: black;
+    grid-column: 1/2;
+}
+
+#box2 .boxes h1 {
+    position: absolute;
+    font-size: 44px;
+    color: white;
+    left: 146px;
+    top: 90px;
+    background-color: black;
+}
+
+#box2 .boxes h4 {
+    position: absolute;
+    font-size: 26px;
+    color: white;
+    left: 146px;
+    top: 156px;
+    font-weight: 400;
+    background-color: black;
+}
+
+#box2 .boxes1 {
+    grid-column: 2/3;
+    width: 51vw;
+    background: transparent;
+}
+
+#box2 .boxes1 video {
+    position: absolute;
+    top: 43px;
+    right: 258px;
+    width: 407px;
+}
+
+#box2 .boxes1 img {
+    position: relative;
+    background: transparent;
+    height: 481px;
+    z-index: 1;
+}
+
+/*fifth page start*/
+#box3 .boxes1 {
+    top: 19px;
+    position: relative;
+    height: 20vw;
+    width: 37vw;
+    left: 72px;
+    background-color: black;
+    grid-column: 1/2;
+}
+
+#box3 .boxes1 h1 {
+    position: absolute;
+    font-size: 53px;
+    color: white;
+    left: 38px;
+    top: 90px;
+    font-weight: bolder;
+    background-color: black;
+}
+
+#box3 .boxes1 h4 {
+    position: absolute;
+    font-size: 23px;
+    color: white;
+    left: 44px;
+    top: 163px;
+    font-weight: 400;
+    background-color: black;
+
+}
+
+#box3 .boxes1 {
+    grid-column: 2/3;
+
+}
+
+#box3 .boxes {
+    width: 51vw;
+    background: transparent;
+}
+
+#box3 .boxes video {
+    position: absolute;
+    top: 100px;
+    right: 226px;
+    overflow: hidden;
+}
+
+#box3 .boxes img {
+    position: relative;
+    background: transparent;
+    height: 481px;
+    z-index: 1;
+}
+
+/*sixth page start*/
+#box4 .boxes {
+    background: transparent;
+}
+
+#box4 .boxes h1 {
+    top: 65px;
+    position: relative;
+    text-align: center;
+    background: transparent;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+#bo0 {
+    position: absolute;
+    text-align: start;
+    width: 60vw;
+    height: 73px;
+    left: 312px;
+    top: 10vw;
+    background-color: rgb(45, 45, 45);
+    cursor: pointer;
+}
+
+#bo0 span:first-child {
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(45, 45, 45);
+}
+
+#bo0 span:last-child {
+    font-weight: 700;
+    position: relative;
+    padding: 10px;
+    font-size: 38px;
+    color: white;
+    left: 43.5vw;
+    background-color: rgb(45, 45, 45);
+}
+
+.boxes button {
+    border-color: black;
+    cursor: pointer;
+}
+
+#bo1 {
+    position: absolute;
+    text-align: start;
+    width: 60vw;
+    height: 73px;
+    left: 312px;
+    top: 15.5vw;
+    background-color: rgb(45, 45, 45);
+    cursor: pointer;
+}
+
+#bo1 span:first-child {
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(45, 45, 45);
+}
+
+#bo1 span:last-child {
+    font-weight: 700;
+    position: relative;
+    padding: 10px;
+    font-size: 38px;
+    color: white;
+    left: 34vw;
+    background-color: rgb(45, 45, 45);
+}
+
+#bo2 {
+    position: absolute;
+    text-align: start;
+    width: 60vw;
+    height: 73px;
+    left: 312px;
+    top: 21vw;
+    background-color: rgb(45, 45, 45);
+}
+
+#bo2 span:first-child {
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(45, 45, 45);
+}
+
+#bo2 span:last-child {
+    font-weight: 700;
+    position: relative;
+    padding: 10px;
+    font-size: 38px;
+    color: white;
+    left: 40.75vw;
+    background-color: rgb(45, 45, 45);
+}
+
+#bo3 {
+    position: absolute;
+    text-align: start;
+    width: 60vw;
+    height: 73px;
+    left: 312px;
+    top: 26.5vw;
+    background-color: rgb(45, 45, 45);
+    cursor: pointer;
+}
+
+#bo3 span:first-child {
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(45, 45, 45);
+}
+
+#bo3 span:last-child {
+    font-weight: 700;
+    position: relative;
+    padding: 10px;
+    font-size: 38px;
+    color: white;
+    left: 42.75vw;
+    background-color: rgb(45, 45, 45);
+}
+
+#bo4 {
+    position: absolute;
+    text-align: start;
+    width: 60vw;
+    height: 73px;
+    left: 312px;
+    top: 32vw;
+    background-color: rgb(45, 45, 45);
+}
+
+#bo4 span:first-child {
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(45, 45, 45);
+}
+
+#bo4 span:last-child {
+    font-weight: 700;
+    position: relative;
+    padding: 10px;
+    font-size: 38px;
+    color: white;
+    left: 34.5vw;
+    background-color: rgb(45, 45, 45);
+}
+
+#bo5 {
+    position: absolute;
+    text-align: start;
+    width: 60vw;
+    height: 73px;
+    left: 312px;
+    top: 37.5vw;
+    background-color: rgb(45, 45, 45);
+}
+
+#bo5 span:first-child {
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(45, 45, 45);
+}
+
+#bo5 span:last-child {
+    font-weight: 700;
+    position: relative;
+    padding: 10px;
+    font-size: 38px;
+    color: white;
+    left: 38.5vw;
+    background-color: rgb(45, 45, 45);
+}
+
+.email1 {
+    position: relative;
+    height: 50px;
+    width: 25vw;
+    top: 32vw;
+    left: 144px;
+    background-color: rgb(196, 191, 191);
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding-left: 6px;
+    opacity: 0.8;
+}
+
+#second1 {
+    position: relative;
+    top: 31vw;
+    height: 55px;
+    background: transparent;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    left: 139px;
+}
+
+.container3 span button {
+    position: relative;
+    height: 50px;
+    width: 11vw;
+    top: 180px;
+    right: 85px;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 21px;
+    color: white;
+    cursor: pointer;
+}
+
+.container3 {
+    position: absolute;
+    top: 193px;
+    left: 189px;
+    background: transparent;
+}
+
+#secondgetstarted {
+    position: relative;
+    height: 52px;
+    width: 11vw;
+    top: 32vw;
+    left: 148px;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 21px;
+    color: white;
+    cursor: pointer;
+}
+
+/* last page started*/
+#boxe1 {
+    background: transparent;
+    color: white;
+    position: absolute;
+    top: 141px;
+    left: 183px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#boxe1>a {
+    background: transparent;
+    color: white;
+    font-family: sans-serif;
+}
+
+#boxe2 {
+    background: transparent;
+}
+
+#boxe2 ul {
+    text-decoration: none;
+    width: 1339px;
+    left: 12vw;
+    position: relative;
+    top: 181px;
+    display: grid;
+    background: transparent;
+    grid-template-columns: 20px 20px 20px 24px;
+    grid-template-rows: 3px 3px 3px 3px;
+    column-gap: 312px;
+    row-gap: 40px;
+}
+
+#boxe2 ul li {
+    background: transparent;
+}
+
+#boxe2 ul li a {
+    display: flex;
+    background: transparent;
+    color: white;
+    width: 154px;
+}
+
+#lastimage {
+    left: 181px;
+    top: 218px;
+    width: 1335px;
+}
+
+#box5>span:last-child {
+    position: relative;
+    color: white;
+    background: transparent;
+    top: 240px;
+    left: 12vw;
+    font-size: 13px;
+}
